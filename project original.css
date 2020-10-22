@@ -1,0 +1,94 @@
+body{
+	 margin:0px;
+	 padding:0px;
+                            /*making the boyd the it's defalt status b/c browsers give there the position */ 
+}
+h3{
+        
+	 color:black;
+	
+    	background-color:white;
+		 position:relative;   /*giving permission to the header so it can slide to deferrent position */
+		 width:97.7%;
+		 font:size:30px;
+		 font-weight:bold;
+		 
+		 
+		 padding:20px;
+		
+		 bottom:16px;
+		 text-align:center;	 
+
+}
+      ul{
+	margin:0px;
+	padding:0px;
+	background-color:#333;
+	list-style-type:none;
+	position:relative;
+	width:100%;
+	overflow:hidden;  /* it will hide if there is overflow */
+	top:-35px;
+}
+       li{
+	float:left;  /*changing the direction of the nav in to horizontal*/
+}
+       li a{
+	text-decoration:none;
+	display:block;
+	color:white;
+	padding:10px;
+}
+     li a:hover:not(.actives){/* make the active nav to not hover*/
+	 background-color:#f1f1f1;
+	 color:black;
+}
+       li.right{
+	float:right;
+
+}
+     a.actives{  /* making active so that it will be shown like colored */
+     	background-color:green;
+     	color:white;
+     }
+   .dropdown{
+    	display: inline-block;
+  }
+  .dropdown-content{
+  	display: none;
+  	position: absolute;
+  	min-width: 135px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	background-color: #f9f9f9;
+  	z-index:1;
+  }
+  .dropdown-content a{
+  	display: block;
+  	color: black;
+  	text-decoration: none;
+  	text-align: left;
+  	padding:12px 16px;
+  }
+  .dropdown-content a:hover
+  {
+  	backgruond-color:#f1f1f1;
+  }
+  .dropdown:hover .dropdown-content{
+  	display: block;
+  }
+     
+
+     .intro{
+     overflow:auto;
+	text-align:center;
+	color:black;
+	text-transform:capitalize;
+	position:relative;
+	top:-50px;
+	
+	padding:10px;
+
+	
+	
+	
+}
